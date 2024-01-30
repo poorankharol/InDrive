@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "860070657749",
+    "firebase_url": "https://flutter-uberclone-a8864-default-rtdb.firebaseio.com",
+    "project_id": "flutter-uberclone-a8864",
+    "storage_bucket": "flutter-uberclone-a8864.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860070657749:android:12f63cb99dc00d823c6c5c",
+        "android_client_info": {
+          "package_name": "com.indrive.user.user_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUXxuHLvsUp1EqxtKbSR0OrtGpON76J6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
