@@ -1,15 +1,16 @@
-class AddressModel{
-  String address;
-  double lat;
-  double long;
+class AddressModel {
+  String? address;
+  double? lat;
+  double? long;
+  String? placeId;
+  String? placeName;
 
   AddressModel({
-    required this.address,
-    required this.lat,
-    required this.long,
+    this.address,
+    this.lat,
+    this.long,
+    this.placeId,
+    this.placeName
   });
-
-
-
 
 }

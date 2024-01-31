@@ -9,6 +9,8 @@ sealed class ImageConstants {
   static const String manImagePath = "$baseImagePath/avatarman.png";
   static const String startDestImagePath = "$baseImagePath/initial.png";
   static const String endDestImagePath = "$baseImagePath/final.png";
+  static const String trackingDestImagePath = "$baseImagePath/tracking.png";
+  static const String carImagePath = "$baseImagePath/uberexec.png";
 
   // svg icons
 

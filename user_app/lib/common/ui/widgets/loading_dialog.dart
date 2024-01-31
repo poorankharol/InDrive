@@ -17,7 +17,7 @@ class Loader extends StatelessWidget {
             valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
           ),
           gapW4,
-          Text(message)
+          message.isEmpty ? const SizedBox.shrink() : Text(message)
         ],
       ),
     );

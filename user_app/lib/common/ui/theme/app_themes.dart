@@ -32,6 +32,22 @@ sealed class AppThemes {
     iconTheme: const IconThemeData(
       color: Colors.black,
     ),
+    dividerColor: Colors.black,
+    listTileTheme: ListTileThemeData(
+      //dense: true,
+      // horizontalTitleGap: 50,
+      // visualDensity: const VisualDensity(horizontal: 0, vertical: -4),
+      tileColor: AppColors.background,
+      subtitleTextStyle: AppTextThemes.textThemeDark.titleMedium!.copyWith(
+        color: Colors.black,
+      ),
+      titleTextStyle: AppTextThemes.textThemeDark.titleLarge!.copyWith(
+        color: Colors.black,
+        fontWeight: FontWeight.bold,
+        fontSize: 18,
+      ),
+
+    ),
   );
 
   static final ThemeData themeDark = ThemeData.dark().copyWith(
@@ -56,5 +72,21 @@ sealed class AppThemes {
     iconTheme: const IconThemeData(
       color: Colors.black,
     ),
+    listTileTheme: ListTileThemeData(
+      //dense: true,
+      // horizontalTitleGap: 50,
+      // visualDensity: const VisualDensity(horizontal: 0, vertical: -4),
+      tileColor: AppColors.backgroundDark,
+      subtitleTextStyle: AppTextThemes.textThemeDark.titleMedium!.copyWith(
+        color: Colors.black,
+      ),
+      titleTextStyle: AppTextThemes.textThemeDark.titleLarge!.copyWith(
+        color: Colors.black,
+        fontWeight: FontWeight.bold,
+        fontSize: 18,
+      ),
+
+    ),
+    dividerColor: Colors.white
   );
 }
